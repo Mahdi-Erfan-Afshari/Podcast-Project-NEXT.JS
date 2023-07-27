@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import img1 from '@/app/img/podcast.png'
+import {server} from '../api/podcasts/route';
 
 async function fetchPodcast() {
   const response = await fetch(`${server}/api/podcasts`);
