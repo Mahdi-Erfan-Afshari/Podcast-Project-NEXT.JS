@@ -2,7 +2,7 @@ import Image from 'next/image';
 import img1 from '@/app/img/podcast.png'
 
 async function fetchPodcast() {
-  const response = await fetch(`http://localhost:3000/api/podcasts`);
+  const response = await fetch(`/api/podcasts`);
   const res = await response.json();
   return res;
 }
