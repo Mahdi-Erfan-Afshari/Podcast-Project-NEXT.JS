@@ -2,7 +2,7 @@ import {CgSearch} from 'react-icons/cg';
 import Link from 'next/link';
 import Image from 'next/image';
 import img1 from '@/app/img/podcast.png';
-import {server} from '../api/podcast/route';
+import {server} from '../api/podcasts/route';
 
 async function fetchPodcasts() {
   const response = await fetch(`${server}/api/podcasts`,
