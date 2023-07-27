@@ -7,7 +7,7 @@ async function fetchPodcasts() {
   const response = await fetch('/api/podcasts',
   {
     next: {
-      revalidate: 5,
+      revalidate: 60,
     },
   });
 
