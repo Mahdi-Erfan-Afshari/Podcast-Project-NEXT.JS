@@ -1,10 +1,11 @@
 import {CgSearch} from 'react-icons/cg';
 import Link from 'next/link';
 import Image from 'next/image';
-import img1 from '@/app/img/podcast.png'
+import img1 from '@/app/img/podcast.png';
+import {server} from '../api/podcast/route';
 
 async function fetchPodcasts() {
-  const response = await fetch('/api/podcasts',
+  const response = await fetch(`${server}/api/podcasts`,
   {
     next: {
       revalidate: 60,
