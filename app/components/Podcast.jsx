@@ -3,7 +3,7 @@ import img1 from '@/app/img/podcast.png'
 import {server} from '../api/podcasts/route';
 
 async function fetchPodcast() {
-  const response = await fetch(`${server}/api/podcasts`);
+  const response = await fetch('/api/podcasts');
   const res = await response.json();
   return res;
 }

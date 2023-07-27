@@ -5,7 +5,7 @@ import img1 from '@/app/img/podcast.png';
 import {server} from '../api/podcasts/route';
 
 async function fetchPodcasts() {
-  const response = await fetch(`${server}/api/podcasts`,
+  const response = await fetch('/api/podcasts',
   {
     next: {
       revalidate: 60,
