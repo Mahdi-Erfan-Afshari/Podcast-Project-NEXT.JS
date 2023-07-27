@@ -4,7 +4,7 @@ import Image from 'next/image';
 import img1 from '@/app/img/podcast.png'
 
 async function fetchPodcasts() {
-  const response = await fetch('http://localhost:3000/api/podcasts',
+  const response = await fetch('/api/podcasts',
   {
     next: {
       revalidate: 5,
