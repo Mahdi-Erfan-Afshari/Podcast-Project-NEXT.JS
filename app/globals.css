@@ -23,7 +23,7 @@ body{
 }
 
 .controller div:first-child{
-    padding: 3px;
+    /* padding: 3px; */
     cursor: pointer;
 }
 
