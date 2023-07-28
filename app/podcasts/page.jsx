@@ -101,14 +101,27 @@
 
 
 
-import React from 'react'
+import {server} from '@/app/api/podcasts/route'
 
-const page = () => {
+const Podcast = async ({ podcast }) => {
+  // const podcasts = await getServerSideProps()
+  console.log(podcast);
   return (
     <div>
-      
+      this is podcast  {podcast.id}
     </div>
   )
 }
 
-export default page
+export const getServerSideProps = async () => {
+  const res = await fetch(`${server}/api/podcasts`);
+  // const res = await fetch(`http://localhost:8000/api/podcasts`);
+  const podcast = await res.json();
+  return{
+    props:{
+      podcast
+    }
+  }
+}
+
+export default Podcast
