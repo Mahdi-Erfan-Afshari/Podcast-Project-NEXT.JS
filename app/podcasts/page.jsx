@@ -114,7 +114,7 @@ const Podcast = async ({ podcast }) => {
 }
 
 export const getServerSideProps = async () => {
-  const res = await fetch(`${server}/api/podcasts`);
+  const res = await fetch(`/api/podcasts`);
   // const res = await fetch(`http://localhost:8000/api/podcasts`);
   const podcast = await res.json();
   return{
