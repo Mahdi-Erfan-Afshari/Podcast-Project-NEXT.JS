@@ -60,8 +60,6 @@ const Controller = ({ url }) => {
             }
             return `0:${time}`
         }
-
-        // return time
     }
 
     const valueProgress = () => {
@@ -72,6 +70,7 @@ const Controller = ({ url }) => {
         setCurrentTime((e.target.value * duration) / 1000)
         audio.current.currentTime = (e.target.value * duration) / 1000
         audio.current.play()
+        togglePlay()
     }
     
     
@@ -83,7 +82,7 @@ const Controller = ({ url }) => {
                 {play ? <PiPlayDuotone className='text-Blue text-3xl' /> : <PiPauseDuotone  className='text-Blue text-3xl'/>}
             </span>
         </div>
-        <audio ref={audio} src={url} onTimeUpdate={(e) => changeCurrentTime(e)}></audio>
+        <audio ref={audio} src={url} onTimeUpdate={(e) => changeCurrentTime(e)} onEnded={togglePlay}></audio>
 
         <div className='flex flex-col md:flex-row mt-3 md:mt-auto md:items-center justify-center w-full'>
             <p className='hidden md:inline-block md:text-md text-sm mt-3 md:mt-auto md:mx-3'> {showTime(currentTime)} </p>
