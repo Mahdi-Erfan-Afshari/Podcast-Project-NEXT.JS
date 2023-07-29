@@ -1,4 +1,3 @@
-'use client'
 import {CgSearch} from 'react-icons/cg';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -7,7 +6,7 @@ import {server} from '../api/podcasts/route';
 
 async function fetchPodcasts() {
     // const response = await fetch('https://podcastnextjs.netlify.app/podcasts/api/podcasts', { cache: 'no-store' }, {
-    const response = await fetch(`${server}/api/podcasts`, { cache: 'no-store' }, {
+    const response = await fetch(`${server}/api/podcasts`, {
       next: {
         revalidate: 60 
       }
