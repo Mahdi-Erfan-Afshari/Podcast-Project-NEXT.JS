@@ -72,8 +72,6 @@ const Controller = ({ url }) => {
         audio.current.play()
         togglePlay()
     }
-    
-    
 
   return (
     <div className="controller w-full flex flex-row bg-White rounded-md p-4 shadow-lg md:px-32 md:mx-24 pe-10 md:pe-32">

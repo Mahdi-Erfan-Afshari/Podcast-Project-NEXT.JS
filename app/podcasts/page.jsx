@@ -1,4 +1,4 @@
-// 'use client';
+'use client';
 import {CgSearch} from 'react-icons/cg';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -17,10 +17,7 @@ async function fetchPodcasts() {
 }
 
 const PodcastPage = async () => {
-  // const podcasts = await fetchPodcasts();
   const podcasts = await fetchPodcasts();
-  // console.log(podcast);
-  // console.log(podcasts);
   
   return (
     <div className='container mx-auto p-6'>
