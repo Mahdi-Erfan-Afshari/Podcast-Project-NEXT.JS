@@ -75,7 +75,7 @@ const Controller = ({ url , podcast }) => {
     }
 
   return (
-    <div className='container mx-auto px-24'>
+    <div className='container mx-auto md:px-24'>
         <h1 className='text-4xl font-bold mb-3 text-center'>{podcast.title}</h1>
         <div className="controller w-full flex flex-row justify-center bg-white rounded-md p-4 shadow-lg md:px-32 pe-10 md:pe-32">
             <div className="flex justify-center">

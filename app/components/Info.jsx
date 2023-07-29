@@ -24,22 +24,22 @@ const Info = ({data}) => {
   }
   return (
     <div className="">
-      <div className="md:mx-28 md:my-6 md:w-auto my-3 py-2 px-3 bg-white shadow-lg rounded-md flex justify-center items-center btn-info w-full">
-        <Link href='#'><button id="info-btn" className="btn-active font-semibold rounded-md py-4 px-5 mx-1 duration-150" onClick={
+      <div className="md:mx-28 md:my-6 md:w-auto my-3 py-2 px-3 bg-white shadow-lg rounded-md flex lg:justify-center justify-between items-center btn-info w-full">
+        <Link href='#'><button id="info-btn" className="btn-active font-semibold rounded-md md:py-4 md:px-5 py-2 px-3 mx-1 duration-150" onClick={
           (e) =>{ changeLable(e) 
           SetSummaryDisplay(true)
           SetTranscriptDisplay(false)
           SetRefrencesDisplay(false)
         }
         }>Summary</button></Link>
-        <Link href='#'><button id="info-btn" className="font-semibold rounded-md py-4 px-5 mx-1 duration-150" onClick={
+        <Link href='#'><button id="info-btn" className="font-semibold rounded-md md:py-4 md:px-5 py-2 px-3 mx-1 duration-150" onClick={
           (e) =>{ changeLable(e) 
           SetTranscriptDisplay(true)
           SetRefrencesDisplay(false)
           SetSummaryDisplay(false)
         }
         }>Transcript</button></Link>
-        <Link href='#'><button id="info-btn" className="font-semibold rounded-md py-4 px-5 mx-1 duration-150" onClick={
+        <Link href='#'><button id="info-btn" className="font-semibold rounded-md md:py-4 md:px-5 py-2 px-3 mx-1 duration-150" onClick={
           (e) =>{ changeLable(e) 
           SetRefrencesDisplay(true)
           SetSummaryDisplay(false)

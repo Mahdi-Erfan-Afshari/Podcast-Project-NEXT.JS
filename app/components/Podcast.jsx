@@ -19,7 +19,7 @@ const Podcast = async ({ id }) => {
   return (
     <div className='container mx-auto p-3'>
       {podcast.map((podcast) => (
-        <div className='p-5'>
+        <div className='md:p-5 p-2'>
           <Controller podcast={podcast} url={podcast.url} />
         </div>
        ))}
