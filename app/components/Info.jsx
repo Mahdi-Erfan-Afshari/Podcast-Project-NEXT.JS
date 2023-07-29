@@ -24,7 +24,7 @@ const Info = ({data}) => {
   }
   return (
     <div className="">
-      <div className="md:mx-28 md:my-6 md:w-auto my-3 py-2 px-3 bg-white shadow-lg rounded-md flex lg:justify-center justify-between items-center btn-info w-full">
+      <div className="md:my-6 md:w-auto my-3 py-2 px-3 bg-white shadow-lg rounded-md flex lg:justify-center justify-between items-center btn-info w-full">
         <Link href='#'><button id="info-btn" className="btn-active font-semibold rounded-md md:py-4 md:px-5 py-2 px-3 mx-1 duration-150" onClick={
           (e) =>{ changeLable(e) 
           SetSummaryDisplay(true)
@@ -48,7 +48,7 @@ const Info = ({data}) => {
         }>Refrences</button></Link>
       </div>
 
-      <div className="info-body hidden md:mx-28 md:my-6 md:w-auto my-3 py-2 px-3 shadow-lg rounded-md flex justify-center items-center bg-white w-full" style={{display: summaryDisplay ? "block" : "none"} }>
+      <div className="info-body hidden md:my-6 md:w-auto my-3 py-2 px-3 shadow-lg rounded-md flex justify-center items-center bg-white w-full" style={{display: summaryDisplay ? "block" : "none"} }>
         <div className="w-full h-auto rounded-md p-3">
           <h1 className="text-center font-bold text-2xl mb-2">Summary</h1>
           <span className="text-gray-800 text-justify">
@@ -60,7 +60,7 @@ const Info = ({data}) => {
           </span>
         </div>
       </div>
-      <div className="info-body hidden md:mx-28 md:my-6 md:w-auto my-3 py-2 px-3 shadow-lg rounded-md flex justify-center items-center bg-white w-full" style={{display: transcriptDisplay ? "block" : "none"}}>
+      <div className="info-body hidden md:my-6 md:w-auto my-3 py-2 px-3 shadow-lg rounded-md flex justify-center items-center bg-white w-full" style={{display: transcriptDisplay ? "block" : "none"}}>
         <div className="w-full h-auto rounded-md p-3">
           <h1 className="text-center font-bold text-2xl mb-2">Transcript</h1>
           <p className="text-gray-800 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sed dolor harum excepturi accusantium tempore exercitationem! Pariatur, sequi nisi. Nesciunt minus non illum totam fugiat iste itaque ducimus odio facilis necessitatibus, aspernatur delectus officiis repellendus velit nam! Dolorum quaerat eos, labore ut eum quidem consequuntur dolores autem officia ad dolore maiores earum tempora eaque atque nisi harum consequatur in, dignissimos qui voluptates rem consectetur. Aliquid accusantium ea dicta repellat debitis, earum, sequi repudiandae quam sint, aperiam sunt provident assumenda eos.</p>
