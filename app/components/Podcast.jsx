@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image';
 import img1 from '@/app/img/podcast.png'
 import {server} from '../api/podcasts/route';

@@ -1,3 +1,4 @@
+'use client'
 import {CgSearch} from 'react-icons/cg';
 import Link from 'next/link';
 import Image from 'next/image';
