@@ -1,6 +1,5 @@
 import { BsArrowRight } from "react-icons/bs";
 import Link from 'next/link'
-import Header from "./Header";
 import Image from 'next/image'
 import Vector1 from '@/app/img/Vector1.svg'
 
