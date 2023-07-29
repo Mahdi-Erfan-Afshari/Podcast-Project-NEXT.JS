@@ -2,7 +2,7 @@ import Image from 'next/image';
 import img1 from '@/app/img/podcast.png'
 import {server} from '../api/podcasts/route';
 import Controller from '@/app/components/Controller'
-
+import Info from './Info'
 
 async function fetchPodcast() {
   const response = await fetch(`${server}/api/podcasts`, { cache: 'no-store' });
@@ -19,8 +19,8 @@ const Podcast = async ({ id }) => {
   return (
     <div className='container mx-auto p-3'>
       {podcast.map((podcast) => (
-        <div className='md:flex md:items-center justify-center p-5'>
-          <Controller url={podcast.url} />
+        <div className='p-5'>
+          <Controller podcast={podcast} url={podcast.url} />
         </div>
        ))}
     </div>
@@ -28,5 +28,3 @@ const Podcast = async ({ id }) => {
 }
 
 export default Podcast
-
-

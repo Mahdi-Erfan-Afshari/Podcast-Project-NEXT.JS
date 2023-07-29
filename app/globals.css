@@ -57,3 +57,12 @@ body{
 .controller-input:active::-webkit-slider-thumb{
     background: #8387ca;
 }
+
+.btn-info{
+    box-sizing: border-box;
+}
+
+.btn-active{
+    background-color: #696ec4;
+    color: #fff;
+}
