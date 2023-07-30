@@ -1,4 +1,3 @@
-'use client'
 import HomePage from '@/app/components/Home'
 
 export default function Home() {

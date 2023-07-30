@@ -2,16 +2,16 @@
 import { useState, useRef } from 'react'
 import {PiPlayDuotone} from 'react-icons/pi'
 import {PiPauseDuotone} from 'react-icons/pi'
-import Info from '@/app/components/Info'
+import Sections from './Sections'
 
 const Controller = ({ url , podcast }) => {
-    const [play, setPlay] = useState(true)
+    const [play, setPlay] = useState(false)
     const [currentTime, setCurrentTime] = useState(0)
     const [duration, setDuration] = useState(0)
     const audio = useRef();
     const togglePlay = () => {
         const audio = document.querySelector('audio');
-        play ? audio.play() : audio.pause();
+        !play ? audio.play() : audio.pause();
         setPlay(!play)
     }
 
@@ -71,11 +71,27 @@ const Controller = ({ url , podcast }) => {
         setCurrentTime((e.target.value * duration) / 1000)
         audio.current.currentTime = (e.target.value * duration) / 1000
         audio.current.play()
-        togglePlay()
+        setPlay(true)
+        // togglePlay()
     }
 
+    // const autoActive = () => {
+    //     const i = (currentTime / 60 / duration).toFixed(0)
+    //     if(currentTime) {
+    //       const sectionBtn = document.querySelectorAll('#section-btn')
+    //       for (let index = 1; index < sectionBtn.length; index++) {
+    //         sectionBtn[index].classList.remove('btn-active')
+    //       }
+    //       var index = Number(i)
+    //       // if(currentTime) {
+    //         sectionBtn[index].classList.add('btn-active')
+    //         // SetTitle(sectionBtn[index].innerText)
+    //       // }
+    //     }
+    //   }
+
   return (
-    <div className='container mx-auto md:px-24'>
+    <div className='container mx-auto md:px-6 lg:px-12 xl:px-24'>
         <h1 className='text-4xl font-bold mb-3 text-center'>{podcast.title}</h1>
         <div className="controller w-full flex flex-row justify-center bg-white rounded-md p-4 shadow-lg md:px-32 pe-10 md:pe-32">
             <div className="flex justify-center">
@@ -83,7 +99,8 @@ const Controller = ({ url , podcast }) => {
                     {play ? <PiPlayDuotone className='text-Blue text-3xl' /> : <PiPauseDuotone  className='text-Blue text-3xl'/>}
                 </span>
             </div>
-            <audio ref={audio} src={url} onTimeUpdate={(e) => changeCurrentTime(e)} onEnded={togglePlay}></audio>
+            <audio ref={audio} src={url} onTimeUpdate={(e) =>{ changeCurrentTime(e) 
+                autoActive()}} onEnded={togglePlay} autoPlay></audio>
 
             <div className='flex flex-col md:flex-row mt-3 md:mt-auto md:items-center justify-center w-full'>
                 <p className='hidden md:inline-block md:text-md text-sm mt-3 md:mt-auto md:mx-3'> {showTime(currentTime)} </p>
@@ -93,7 +110,8 @@ const Controller = ({ url , podcast }) => {
                 <p className='md:text-md text-sm mt-3 md:mt-auto md:mx-3'> {showTime(duration)} </p></div>
             </div>
         </div>
-        <Info data={audio.current} />
+        <Sections data={audio.current} />
+
     </div>
   )
 }
