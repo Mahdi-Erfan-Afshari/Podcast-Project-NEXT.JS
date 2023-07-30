@@ -5,7 +5,7 @@ import {PiPauseDuotone} from 'react-icons/pi'
 import Sections from './Sections'
 
 const Controller = ({ url , podcast }) => {
-    const [play, setPlay] = useState(false)
+    const [play, setPlay] = useState(true)
     const [currentTime, setCurrentTime] = useState(0)
     const [duration, setDuration] = useState(0)
     const audio = useRef();
@@ -75,32 +75,17 @@ const Controller = ({ url , podcast }) => {
         // togglePlay()
     }
 
-    // const autoActive = () => {
-    //     const i = (currentTime / 60 / duration).toFixed(0)
-    //     if(currentTime) {
-    //       const sectionBtn = document.querySelectorAll('#section-btn')
-    //       for (let index = 1; index < sectionBtn.length; index++) {
-    //         sectionBtn[index].classList.remove('btn-active')
-    //       }
-    //       var index = Number(i)
-    //       // if(currentTime) {
-    //         sectionBtn[index].classList.add('btn-active')
-    //         // SetTitle(sectionBtn[index].innerText)
-    //       // }
-    //     }
-    //   }
-
   return (
     <div className='container mx-auto md:px-6 lg:px-12 xl:px-24'>
         <h1 className='text-4xl font-bold mb-3 text-center'>{podcast.title}</h1>
         <div className="controller w-full flex flex-row justify-center bg-white rounded-md p-4 shadow-lg md:px-32 pe-10 md:pe-32">
             <div className="flex justify-center">
                 <span className='flex justify-center md:me-auto me-2' onClick={togglePlay}>
-                    {play ? <PiPlayDuotone className='text-Blue text-3xl' /> : <PiPauseDuotone  className='text-Blue text-3xl'/>}
+                    {!play ? <PiPlayDuotone className='text-Blue text-3xl' /> : <PiPauseDuotone  className='text-Blue text-3xl'/>}
                 </span>
             </div>
-            <audio ref={audio} src={url} onTimeUpdate={(e) =>{ changeCurrentTime(e) 
-                autoActive()}} onEnded={togglePlay} autoPlay></audio>
+            <audio ref={audio} src={url} onTimeUpdate={(e) =>{changeCurrentTime(e)}
+            } onEnded={togglePlay} autoPlay></audio>
 
             <div className='flex flex-col md:flex-row mt-3 md:mt-auto md:items-center justify-center w-full'>
                 <p className='hidden md:inline-block md:text-md text-sm mt-3 md:mt-auto md:mx-3'> {showTime(currentTime)} </p>
@@ -110,7 +95,7 @@ const Controller = ({ url , podcast }) => {
                 <p className='md:text-md text-sm mt-3 md:mt-auto md:mx-3'> {showTime(duration)} </p></div>
             </div>
         </div>
-        <Sections data={audio.current} />
+        <Sections data={audio.current}/>
 
     </div>
   )

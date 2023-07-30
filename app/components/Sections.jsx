@@ -1,10 +1,11 @@
 'use client'
 import Link from "next/link"
-import { useState  } from "react"
+import { useState   } from "react"
 import Info from "./Info"
 
-const Sections = ({data}) => {
+const Sections = ({ data }) => {
     const audio = data
+    
   const getTime = () => {
     if(audio){
       return audio.currentTime
@@ -35,25 +36,6 @@ const Sections = ({data}) => {
         SetTitle(e.target.innerText)
       }
 
-
-      audio.onTimeUpdate(
-         () => {
-            const i = (currentTime / 60 / duration).toFixed(0)
-            if(currentTime) {
-              const sectionBtn = document.querySelectorAll('#section-btn')
-              for (let index = 1; index < sectionBtn.length; index++) {
-                sectionBtn[index].classList.remove('btn-active')
-              }
-              var index = Number(i)
-              // if(currentTime) {
-                sectionBtn[index].classList.add('btn-active')
-                // SetTitle(sectionBtn[index].innerText)
-              // }
-            }
-          }
-      )
-      
-
   return (
     <>
       <div className="md:my-6 md:w-auto my-3 py-2 px-3 bg-white shadow-lg rounded-md flex lg:justify-center justify-between items-center btn-info md:overflow-auto overflow-x-scroll relative">
@@ -63,7 +45,7 @@ const Sections = ({data}) => {
         <Link href='#'><button id="section-btn" className="font-semibold rounded-md md:py-4 py-3 px-3 w-44 mx-1 duration-150 block" onClick={(e) =>{ changeLable(e) }}>{duration == NaN ? 'Section 4' : duration ? `section ${duration * 3} Until ${duration * 4}` : 'section 4'}</button></Link>
         <Link href='#'><button id="section-btn" className="font-semibold rounded-md md:py-4 py-3 px-3 w-44 mx-1 duration-150 block" onClick={(e) =>{ changeLable(e) }}>{duration == NaN ? 'Section 5' : duration ? `section ${duration * 4} Until ${duration * 5}` : 'section 5'}</button></Link>
       </div>
-      <Info text={text} titles={title} currentTime={time} duration={duration} />
+      <Info text={text} title={title} currentTime={time} duration={duration} />
     </>
   )
 }

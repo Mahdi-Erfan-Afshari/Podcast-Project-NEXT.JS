@@ -1,13 +1,11 @@
 'use client'
 import Link from "next/link"
-import { useState , useEffect  } from "react"
-import { BsCurrencyDollar } from "react-icons/bs"
+import { useState } from "react"
 
-const Info = ({ text , titles , currentTime , duration  }) => {
+const Info = ({ text , title , currentTime , duration  }) => {
   const [displaySummery, setDisplaySummary] = useState(false)
   const [displayTranscript, setDisplayTranscript] = useState(false)
   const [displayRefrences, setDisplayRefrences] = useState(false)
-  const [title, SetTitle] = useState(titles)
 
   const changeInfoLable = (e) => {
     let infoBtn = document.querySelectorAll('#info-btn')
@@ -17,11 +15,6 @@ const Info = ({ text , titles , currentTime , duration  }) => {
       e.target.classList.add('btn-active');
     }
 
-    // useEffect(() => {
-      
-
-      
-    // })
   return (
     <div className="">
       <div className="md:my-6 md:w-auto my-3 py-2 px-3 shadow-lg rounded-md flex flex-col justify-center items-center bg-white w-full">
