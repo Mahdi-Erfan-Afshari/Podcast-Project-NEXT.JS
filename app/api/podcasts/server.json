@@ -10,38 +10,49 @@
       "type": "audio/x-m4a",
       "duration": 3981,
       "count" : 5,
-      "sections" : {
-        "section1" : {
-          "title" :"FalaDev 1",
-          "summary" : "This is Summary For Section 1",
-          "transcript" : "This is Transcript For Section 1",
-          "refrences" : "This is Refrences For Section 1"
+      "sections" : 
+      [
+        {
+          "section1" :{
+            "title" :"FalaDev 1",
+            "summary" : "This is Summary For Section 1",
+            "transcript" : "This is Transcript For Section 1",
+            "refrences" : "This is Refrences For Section 1"
+          }
         },
-        "section2" : {
-          "title" :"FalaDev 2",
-          "summary" : "This is Summary For Section 2",
-          "transcript" : "This is Transcript For Section 2",
-          "refrences" : "This is Refrences For Section 2"
+        {
+          "section2" : {
+            "title" :"FalaDev 2",
+            "summary" : "This is Summary For Section 2",
+            "transcript" : "This is Transcript For Section 2",
+            "refrences" : "This is Refrences For Section 2"
+          }
         },
-        "section3" : {
-          "title" :"FalaDev 3",
-          "summary" : "This is Summary For Section 3",
-          "transcript" : "This is Transcript For Section 3",
-          "refrences" : "This is Refrences For Section 3"
+        {
+          "section3" :{
+            "title" :"FalaDev 3",
+            "summary" : "This is Summary For Section 3",
+            "transcript" : "This is Transcript For Section 3",
+            "refrences" : "This is Refrences For Section 3"
+          }
         },
-        "section4" : {
-          "title" :"FalaDev 4",
-          "summary" : "This is Summary For Section 4",
-          "transcript" : "This is Transcript For Section 4",
-          "refrences" : "This is Refrences For Section 4"
+        {
+          "section4" : {
+            "title" :"FalaDev 4",
+            "summary" : "This is Summary For Section 4",
+            "transcript" : "This is Transcript For Section 4",
+            "refrences" : "This is Refrences For Section 4"
+          }
         },
-        "section5" : {
-          "title" :"FalaDev 5",
-          "summary" : "This is Summary For Section 5",
-          "transcript" : "This is Transcript For Section 5",
-          "refrences" : "This is Refrences For Section 5"
+        {
+          "section5" : {
+            "title" :"FalaDev 5",
+            "summary" : "This is Summary For Section 5",
+            "transcript" : "This is Transcript For Section 5",
+            "refrences" : "This is Refrences For Section 5"
+          }
         }
-      }
+      ]
     },
     {
       "id": "uma-conversa-sobre-programacao-funcional-e-orientacao-a-objetos",      
@@ -54,32 +65,41 @@
       "type": "audio/x-m4a",
       "duration": 4237,
       "count" : 4,
-      "sections" : {
-        "section1" : {
-          "title" :"FalaDev 1",
-          "summary" : "This is Summary For Section 1",
-          "transcript" : "This is Transcript For Section 1",
-          "refrences" : "This is Refrences For Section 1"
+      "sections" :
+      [
+        {
+          "section1" :{
+            "title" :"FalaDev 1",
+            "summary" : "This is Summary For Section 1",
+            "transcript" : "This is Transcript For Section 1",
+            "refrences" : "This is Refrences For Section 1"
+          }
         },
-        "section2" : {
-          "title" :"FalaDev 2",
-          "summary" : "This is Summary For Section 2",
-          "transcript" : "This is Transcript For Section 2",
-          "refrences" : "This is Refrences For Section 2"
+        {
+          "section2" : {
+            "title" :"FalaDev 2",
+            "summary" : "This is Summary For Section 2",
+            "transcript" : "This is Transcript For Section 2",
+            "refrences" : "This is Refrences For Section 2"
+          }
         },
-        "section3" : {
-          "title" :"FalaDev 3",
-          "summary" : "This is Summary For Section 3",
-          "transcript" : "This is Transcript For Section 3",
-          "refrences" : "This is Refrences For Section 3"
+        {
+          "section3" :{
+            "title" :"FalaDev 3",
+            "summary" : "This is Summary For Section 3",
+            "transcript" : "This is Transcript For Section 3",
+            "refrences" : "This is Refrences For Section 3"
+          }
         },
-        "section4" : {
-          "title" :"FalaDev 4",
-          "summary" : "This is Summary For Section 4",
-          "transcript" : "This is Transcript For Section 4",
-          "refrences" : "This is Refrences For Section 4"
+        {
+          "section4" : {
+            "title" :"FalaDev 4",
+            "summary" : "This is Summary For Section 4",
+            "transcript" : "This is Transcript For Section 4",
+            "refrences" : "This is Refrences For Section 4"
+          }
         }
-      }
+      ]
     },
     {
       "id": "barreiras-e-solucoes-propostas-por-micro-servicos",      
@@ -92,26 +112,33 @@
       "type": "audio/x-m4a",
       "duration": 5506,
       "count" : 3,
-      "sections" : {
-        "section1" : {
-          "title" :"FalaDev 1",
-          "summary" : "This is Summary For Section 1",
-          "transcript" : "This is Transcript For Section 1",
-          "refrences" : "This is Refrences For Section 1"
+      "sections" :
+      [
+        {
+          "section1" :{
+            "title" :"FalaDev 1",
+            "summary" : "This is Summary For Section 1",
+            "transcript" : "This is Transcript For Section 1",
+            "refrences" : "This is Refrences For Section 1"
+          }
         },
-        "section2" : {
-          "title" :"FalaDev 2",
-          "summary" : "This is Summary For Section 2",
-          "transcript" : "This is Transcript For Section 2",
-          "refrences" : "This is Refrences For Section 2"
+        {
+          "section2" : {
+            "title" :"FalaDev 2",
+            "summary" : "This is Summary For Section 2",
+            "transcript" : "This is Transcript For Section 2",
+            "refrences" : "This is Refrences For Section 2"
+          }
         },
-        "section3" : {
-          "title" :"FalaDev 3",
-          "summary" : "This is Summary For Section 3",
-          "transcript" : "This is Transcript For Section 3",
-          "refrences" : "This is Refrences For Section 3"
+        {
+          "section3" :{
+            "title" :"FalaDev 3",
+            "summary" : "This is Summary For Section 3",
+            "transcript" : "This is Transcript For Section 3",
+            "refrences" : "This is Refrences For Section 3"
+          }
         }
-      }
+      ]
     },
     {
       "id": "aplicacao-de-arquiteturas-mvc-e-clean-architecture-na-pratica",      
@@ -124,38 +151,49 @@
       "type": "audio/x-m4a",
       "duration": 5044,
       "count" : 5,
-      "sections" : {
-        "section1" : {
-          "title" :"FalaDev 1",
-          "summary" : "This is Summary For Section 1",
-          "transcript" : "This is Transcript For Section 1",
-          "refrences" : "This is Refrences For Section 1"
+      "sections" :
+      [
+        {
+          "section1" :{
+            "title" :"FalaDev 1",
+            "summary" : "This is Summary For Section 1",
+            "transcript" : "This is Transcript For Section 1",
+            "refrences" : "This is Refrences For Section 1"
+          }
         },
-        "section2" : {
-          "title" :"FalaDev 2",
-          "summary" : "This is Summary For Section 2",
-          "transcript" : "This is Transcript For Section 2",
-          "refrences" : "This is Refrences For Section 2"
+        {
+          "section2" : {
+            "title" :"FalaDev 2",
+            "summary" : "This is Summary For Section 2",
+            "transcript" : "This is Transcript For Section 2",
+            "refrences" : "This is Refrences For Section 2"
+          }
         },
-        "section3" : {
-          "title" :"FalaDev 3",
-          "summary" : "This is Summary For Section 3",
-          "transcript" : "This is Transcript For Section 3",
-          "refrences" : "This is Refrences For Section 3"
+        {
+          "section3" :{
+            "title" :"FalaDev 3",
+            "summary" : "This is Summary For Section 3",
+            "transcript" : "This is Transcript For Section 3",
+            "refrences" : "This is Refrences For Section 3"
+          }
         },
-        "section4" : {
-          "title" :"FalaDev 4",
-          "summary" : "This is Summary For Section 4",
-          "transcript" : "This is Transcript For Section 4",
-          "refrences" : "This is Refrences For Section 4"
+        {
+          "section4" : {
+            "title" :"FalaDev 4",
+            "summary" : "This is Summary For Section 4",
+            "transcript" : "This is Transcript For Section 4",
+            "refrences" : "This is Refrences For Section 4"
+          }
         },
-        "section5" : {
-          "title" :"FalaDev 5",
-          "summary" : "This is Summary For Section 5",
-          "transcript" : "This is Transcript For Section 5",
-          "refrences" : "This is Refrences For Section 5"
+        {
+          "section5" : {
+            "title" :"FalaDev 5",
+            "summary" : "This is Summary For Section 5",
+            "transcript" : "This is Transcript For Section 5",
+            "refrences" : "This is Refrences For Section 5"
+          }
         }
-      }
+      ]
     },
     {
       "id": "entrevista-jose-valim-criador-do-elixir",      
@@ -168,32 +206,41 @@
       "type": "audio/x-m4a",
       "duration": 4396,
       "count" : 4,
-      "sections" : {
-        "section1" : {
-          "title" :"FalaDev 1",
-          "summary" : "This is Summary For Section 1",
-          "transcript" : "This is Transcript For Section 1",
-          "refrences" : "This is Refrences For Section 1"
+      "sections" :
+      [
+        {
+          "section1" :{
+            "title" :"FalaDev 1",
+            "summary" : "This is Summary For Section 1",
+            "transcript" : "This is Transcript For Section 1",
+            "refrences" : "This is Refrences For Section 1"
+          }
         },
-        "section2" : {
-          "title" :"FalaDev 2",
-          "summary" : "This is Summary For Section 2",
-          "transcript" : "This is Transcript For Section 2",
-          "refrences" : "This is Refrences For Section 2"
+        {
+          "section2" : {
+            "title" :"FalaDev 2",
+            "summary" : "This is Summary For Section 2",
+            "transcript" : "This is Transcript For Section 2",
+            "refrences" : "This is Refrences For Section 2"
+          }
         },
-        "section3" : {
-          "title" :"FalaDev 3",
-          "summary" : "This is Summary For Section 3",
-          "transcript" : "This is Transcript For Section 3",
-          "refrences" : "This is Refrences For Section 3"
+        {
+          "section3" :{
+            "title" :"FalaDev 3",
+            "summary" : "This is Summary For Section 3",
+            "transcript" : "This is Transcript For Section 3",
+            "refrences" : "This is Refrences For Section 3"
+          }
         },
-        "section4" : {
-          "title" :"FalaDev 4",
-          "summary" : "This is Summary For Section 4",
-          "transcript" : "This is Transcript For Section 4",
-          "refrences" : "This is Refrences For Section 4"
+        {
+          "section4" : {
+            "title" :"FalaDev 4",
+            "summary" : "This is Summary For Section 4",
+            "transcript" : "This is Transcript For Section 4",
+            "refrences" : "This is Refrences For Section 4"
+          }
         }
-      }
+      ]
     },
     {
       "id": "o-que-e-ui-ux",      
@@ -206,44 +253,57 @@
       "type": "audio/x-m4a",
       "duration": 2715,
       "count" : 6,
-      "sections" : {
-        "section1" : {
-          "title" :"FalaDev 1",
-          "summary" : "This is Summary For Section 1",
-          "transcript" : "This is Transcript For Section 1",
-          "refrences" : "This is Refrences For Section 1"
+      "sections" :
+      [
+        {
+          "section1" :{
+            "title" :"FalaDev 1",
+            "summary" : "This is Summary For Section 1",
+            "transcript" : "This is Transcript For Section 1",
+            "refrences" : "This is Refrences For Section 1"
+          }
         },
-        "section2" : {
-          "title" :"FalaDev 2",
-          "summary" : "This is Summary For Section 2",
-          "transcript" : "This is Transcript For Section 2",
-          "refrences" : "This is Refrences For Section 2"
+        {
+          "section2" : {
+            "title" :"FalaDev 2",
+            "summary" : "This is Summary For Section 2",
+            "transcript" : "This is Transcript For Section 2",
+            "refrences" : "This is Refrences For Section 2"
+          }
         },
-        "section3" : {
-          "title" :"FalaDev 3",
-          "summary" : "This is Summary For Section 3",
-          "transcript" : "This is Transcript For Section 3",
-          "refrences" : "This is Refrences For Section 3"
+        {
+          "section3" :{
+            "title" :"FalaDev 3",
+            "summary" : "This is Summary For Section 3",
+            "transcript" : "This is Transcript For Section 3",
+            "refrences" : "This is Refrences For Section 3"
+          }
         },
-        "section4" : {
-          "title" :"FalaDev 4",
-          "summary" : "This is Summary For Section 4",
-          "transcript" : "This is Transcript For Section 4",
-          "refrences" : "This is Refrences For Section 4"
+        {
+          "section4" : {
+            "title" :"FalaDev 4",
+            "summary" : "This is Summary For Section 4",
+            "transcript" : "This is Transcript For Section 4",
+            "refrences" : "This is Refrences For Section 4"
+          }
         },
-        "section5" : {
-          "title" :"FalaDev 5",
-          "summary" : "This is Summary For Section 5",
-          "transcript" : "This is Transcript For Section 5",
-          "refrences" : "This is Refrences For Section 5"
+        {
+          "section5" : {
+            "title" :"FalaDev 5",
+            "summary" : "This is Summary For Section 5",
+            "transcript" : "This is Transcript For Section 5",
+            "refrences" : "This is Refrences For Section 5"
+          }
         },
-        "section6" : {
-          "title" :"FalaDev 6",
-          "summary" : "This is Summary For Section 6",
-          "transcript" : "This is Transcript For Section 6",
-          "refrences" : "This is Refrences For Section 6"
+        {
+          "section6" : {
+            "title" :"FalaDev 6",
+            "summary" : "This is Summary For Section 6",
+            "transcript" : "This is Transcript For Section 6",
+            "refrences" : "This is Refrences For Section 6"
+          }
         }
-      }
+      ]
     },
     {
       "id": "como-virar-lider-desenvolvimento",      
@@ -256,20 +316,25 @@
       "type": "audio/x-m4a",
       "duration": 2917,
       "count" : 2,
-      "sections" : {
-        "section1" : {
-          "title" :"FalaDev 1",
-          "summary" : "This is Summary For Section 1",
-          "transcript" : "This is Transcript For Section 1",
-          "refrences" : "This is Refrences For Section 1"
+      "sections" :
+      [
+        {
+          "section1" :{
+            "title" :"FalaDev 1",
+            "summary" : "This is Summary For Section 1",
+            "transcript" : "This is Transcript For Section 1",
+            "refrences" : "This is Refrences For Section 1"
+          }
         },
-        "section2" : {
-          "title" :"FalaDev 2",
-          "summary" : "This is Summary For Section 2",
-          "transcript" : "This is Transcript For Section 2",
-          "refrences" : "This is Refrences For Section 2"
+        {
+          "section2" : {
+            "title" :"FalaDev 2",
+            "summary" : "This is Summary For Section 2",
+            "transcript" : "This is Transcript For Section 2",
+            "refrences" : "This is Refrences For Section 2"
+          }
         }
-      }
+      ]
     },
     {
       "id": "comunidades-e-tecnologia",      
@@ -282,38 +347,49 @@
       "type": "audio/x-m4a",
       "duration": 2677,
       "count" : 5,
-      "sections" : {
-        "section1" : {
-          "title" :"FalaDev 1",
-          "summary" : "This is Summary For Section 1",
-          "transcript" : "This is Transcript For Section 1",
-          "refrences" : "This is Refrences For Section 1"
+      "sections" :
+      [
+        {
+          "section1" :{
+            "title" :"FalaDev 1",
+            "summary" : "This is Summary For Section 1",
+            "transcript" : "This is Transcript For Section 1",
+            "refrences" : "This is Refrences For Section 1"
+          }
         },
-        "section2" : {
-          "title" :"FalaDev 2",
-          "summary" : "This is Summary For Section 2",
-          "transcript" : "This is Transcript For Section 2",
-          "refrences" : "This is Refrences For Section 2"
+        {
+          "section2" : {
+            "title" :"FalaDev 2",
+            "summary" : "This is Summary For Section 2",
+            "transcript" : "This is Transcript For Section 2",
+            "refrences" : "This is Refrences For Section 2"
+          }
         },
-        "section3" : {
-          "title" :"FalaDev 3",
-          "summary" : "This is Summary For Section 3",
-          "transcript" : "This is Transcript For Section 3",
-          "refrences" : "This is Refrences For Section 3"
+        {
+          "section3" :{
+            "title" :"FalaDev 3",
+            "summary" : "This is Summary For Section 3",
+            "transcript" : "This is Transcript For Section 3",
+            "refrences" : "This is Refrences For Section 3"
+          }
         },
-        "section4" : {
-          "title" :"FalaDev 4",
-          "summary" : "This is Summary For Section 4",
-          "transcript" : "This is Transcript For Section 4",
-          "refrences" : "This is Refrences For Section 4"
+        {
+          "section4" : {
+            "title" :"FalaDev 4",
+            "summary" : "This is Summary For Section 4",
+            "transcript" : "This is Transcript For Section 4",
+            "refrences" : "This is Refrences For Section 4"
+          }
         },
-        "section5" : {
-          "title" :"FalaDev 5",
-          "summary" : "This is Summary For Section 5",
-          "transcript" : "This is Transcript For Section 5",
-          "refrences" : "This is Refrences For Section 5"
+        {
+          "section5" : {
+            "title" :"FalaDev 5",
+            "summary" : "This is Summary For Section 5",
+            "transcript" : "This is Transcript For Section 5",
+            "refrences" : "This is Refrences For Section 5"
+          }
         }
-      }
+      ]
     },
     {
       "id": "typescript-vale-a-pena",      
@@ -326,32 +402,41 @@
       "type": "audio/x-m4a",
       "duration": 1772,
       "count" : 4,
-      "sections" : {
-        "section1" : {
-          "title" :"FalaDev 1",
-          "summary" : "This is Summary For Section 1",
-          "transcript" : "This is Transcript For Section 1",
-          "refrences" : "This is Refrences For Section 1"
+      "sections" :
+      [
+        {
+          "section1" :{
+            "title" :"FalaDev 1",
+            "summary" : "This is Summary For Section 1",
+            "transcript" : "This is Transcript For Section 1",
+            "refrences" : "This is Refrences For Section 1"
+          }
         },
-        "section2" : {
-          "title" :"FalaDev 2",
-          "summary" : "This is Summary For Section 2",
-          "transcript" : "This is Transcript For Section 2",
-          "refrences" : "This is Refrences For Section 2"
+        {
+          "section2" : {
+            "title" :"FalaDev 2",
+            "summary" : "This is Summary For Section 2",
+            "transcript" : "This is Transcript For Section 2",
+            "refrences" : "This is Refrences For Section 2"
+          }
         },
-        "section3" : {
-          "title" :"FalaDev 3",
-          "summary" : "This is Summary For Section 3",
-          "transcript" : "This is Transcript For Section 3",
-          "refrences" : "This is Refrences For Section 3"
+        {
+          "section3" :{
+            "title" :"FalaDev 3",
+            "summary" : "This is Summary For Section 3",
+            "transcript" : "This is Transcript For Section 3",
+            "refrences" : "This is Refrences For Section 3"
+          }
         },
-        "section4" : {
-          "title" :"FalaDev 4",
-          "summary" : "This is Summary For Section 4",
-          "transcript" : "This is Transcript For Section 4",
-          "refrences" : "This is Refrences For Section 4"
+        {
+          "section4" : {
+            "title" :"FalaDev 4",
+            "summary" : "This is Summary For Section 4",
+            "transcript" : "This is Transcript For Section 4",
+            "refrences" : "This is Refrences For Section 4"
+          }
         }
-      }
+      ]
     },
     {
       "id": "estrategias-de-autenticacao-jwt-oauth",      
@@ -364,31 +449,40 @@
       "type": "audio/x-m4a",
       "duration": 1463,
       "count" : 4,
-      "sections" : {
-        "section1" : {
-          "title" :"FalaDev 1",
-          "summary" : "This is Summary For Section 1",
-          "transcript" : "This is Transcript For Section 1",
-          "refrences" : "This is Refrences For Section 1"
+      "sections" :
+      [
+        {
+          "section1" :{
+            "title" :"FalaDev 1",
+            "summary" : "This is Summary For Section 1",
+            "transcript" : "This is Transcript For Section 1",
+            "refrences" : "This is Refrences For Section 1"
+          }
         },
-        "section2" : {
-          "title" :"FalaDev 2",
-          "summary" : "This is Summary For Section 2",
-          "transcript" : "This is Transcript For Section 2",
-          "refrences" : "This is Refrences For Section 2"
+        {
+          "section2" : {
+            "title" :"FalaDev 2",
+            "summary" : "This is Summary For Section 2",
+            "transcript" : "This is Transcript For Section 2",
+            "refrences" : "This is Refrences For Section 2"
+          }
         },
-        "section3" : {
-          "title" :"FalaDev 3",
-          "summary" : "This is Summary For Section 3",
-          "transcript" : "This is Transcript For Section 3",
-          "refrences" : "This is Refrences For Section 3"
+        {
+          "section3" :{
+            "title" :"FalaDev 3",
+            "summary" : "This is Summary For Section 3",
+            "transcript" : "This is Transcript For Section 3",
+            "refrences" : "This is Refrences For Section 3"
+          }
         },
-        "section4" : {
-          "title" :"FalaDev 4",
-          "summary" : "This is Summary For Section 4",
-          "transcript" : "This is Transcript For Section 4",
-          "refrences" : "This is Refrences For Section 4"
+        {
+          "section4" : {
+            "title" :"FalaDev 4",
+            "summary" : "This is Summary For Section 4",
+            "transcript" : "This is Transcript For Section 4",
+            "refrences" : "This is Refrences For Section 4"
+          }
         }
-      }
+      ]
     }
 ]

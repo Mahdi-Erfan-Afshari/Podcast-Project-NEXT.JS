@@ -18,7 +18,7 @@ const PodcastParent = async ({id}) => {
   return (
     <>
         <Controller podcast={podcast} url={podcast.url} />
-        <Sections />
+        <Sections id={id} />
         <Info />
     </>
   )

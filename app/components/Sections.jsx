@@ -14,13 +14,17 @@ async function fetchPodcast() {
 
 
 
-const Sections = async ({ data , podcasts }) => {
+const Sections = async ({ id , data , podcasts }) => {
   const fetchPodcasts = await fetchPodcast();
+  const podcast = await fetchPodcasts.filter((podcast) => podcast.id == id);
+  const sections = [podcast[0].sections]
   // const fetchSections = fetchPodcasts.id
-
-    
+  console.log(sections);
+  // podcast.map((podcast) => {
+  //   console.log(podcast.id);
+  // })
   // console.log(fetchPodcasts.id);
-  console.log(fetchPodcasts.id);
+  // console.log(podcast);
   // const count = podcasts.count
   // const audio = data
 
@@ -68,11 +72,17 @@ const Sections = async ({ data , podcasts }) => {
         <Link href='#'><button id="section-btn" className="font-semibold rounded-md md:py-4 py-3 px-3 w-44 mx-1 duration-150 block" onClick={(e) =>{ changeLable(e) }}>{duration == NaN ? 'Section 4' : duration ? `section ${duration * 3} Until ${duration * 4}` : 'section 4'}</button></Link>
         <Link href='#'><button id="section-btn" className="font-semibold rounded-md md:py-4 py-3 px-3 w-44 mx-1 duration-150 block" onClick={(e) =>{ changeLable(e) }}>{duration == NaN ? 'Section 5' : duration ? `section ${duration * 4} Until ${duration * 5}` : 'section 5'}</button></Link> */}
 
+
+        {sections.map(() => (
+          <Link href='#'><button id="section-btn" className="font-semibold rounded-md md:py-4 py-3 px-3 w-44 mx-1 duration-150 block">Section</button></Link>
+        ))}
         
 
         {/* {fetchSections.map(() => (
           <Link href='#'><button id="section-btn" className="font-semibold rounded-md md:py-4 py-3 px-3 w-44 mx-1 duration-150 block" onClick={(e) =>{ changeLable(e) }}>{duration == NaN ? 'Section 2' : duration ? `section ${duration} Until ${duration * 2}` : 'section 2'}</button></Link>
         ))} */}
+
+        
 
         {/* {() => {
           for (let i = 0; i < count; i++) {
