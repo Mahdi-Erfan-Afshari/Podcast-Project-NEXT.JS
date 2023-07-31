@@ -78,4 +78,9 @@ const Info = ({ text , title , currentTime , duration  }) => {
   )
 }
 
+Info.defaultProps = {
+  text: 'Section',
+  title: 'Section'
+};
+
 export default Info

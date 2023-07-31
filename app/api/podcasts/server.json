@@ -8,7 +8,40 @@
       "description": "Nesse episódio do Faladev, Diego Fernandes se reúne com João Pedro Schmitz, Bruno Lemos e Diego Haz, para discutir sobre a importância da contribuição open source e quais desafios circulam na comunidade.",
       "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/opensource.m4a",
       "type": "audio/x-m4a",
-      "duration": 3981
+      "duration": 3981,
+      "count" : 5,
+      "sections" : {
+        "section1" : {
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
+        },
+        "section2" : {
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
+        },
+        "section3" : {
+          "title" :"FalaDev 3",
+          "summary" : "This is Summary For Section 3",
+          "transcript" : "This is Transcript For Section 3",
+          "refrences" : "This is Refrences For Section 3"
+        },
+        "section4" : {
+          "title" :"FalaDev 4",
+          "summary" : "This is Summary For Section 4",
+          "transcript" : "This is Transcript For Section 4",
+          "refrences" : "This is Refrences For Section 4"
+        },
+        "section5" : {
+          "title" :"FalaDev 5",
+          "summary" : "This is Summary For Section 5",
+          "transcript" : "This is Transcript For Section 5",
+          "refrences" : "This is Refrences For Section 5"
+        }
+      }
     },
     {
       "id": "uma-conversa-sobre-programacao-funcional-e-orientacao-a-objetos",      
@@ -19,7 +52,34 @@
       "description": "Diego e Dani receberam Laura Beatris e Rafael Camarda na mesa do Faladev para conversarem sobre programação funcional e programação orientada a objetos.Análises de mercado",
       "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/funcional.m4a",
       "type": "audio/x-m4a",
-      "duration": 4237
+      "duration": 4237,
+      "count" : 4,
+      "sections" : {
+        "section1" : {
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
+        },
+        "section2" : {
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
+        },
+        "section3" : {
+          "title" :"FalaDev 3",
+          "summary" : "This is Summary For Section 3",
+          "transcript" : "This is Transcript For Section 3",
+          "refrences" : "This is Refrences For Section 3"
+        },
+        "section4" : {
+          "title" :"FalaDev 4",
+          "summary" : "This is Summary For Section 4",
+          "transcript" : "This is Transcript For Section 4",
+          "refrences" : "This is Refrences For Section 4"
+        }
+      }
     },
     {
       "id": "barreiras-e-solucoes-propostas-por-micro-servicos",      
@@ -30,7 +90,28 @@
       "description": "Os desenvolvedores Wesley Willians e Lucas Santos foram convidados para este Faladev para ter uma conversa sobre o que são micro-serviços e quais são os desafios e as barreiras de sua aplicação.",
       "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/microservicos.m4a",
       "type": "audio/x-m4a",
-      "duration": 5506
+      "duration": 5506,
+      "count" : 3,
+      "sections" : {
+        "section1" : {
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
+        },
+        "section2" : {
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
+        },
+        "section3" : {
+          "title" :"FalaDev 3",
+          "summary" : "This is Summary For Section 3",
+          "transcript" : "This is Transcript For Section 3",
+          "refrences" : "This is Refrences For Section 3"
+        }
+      }
     },
     {
       "id": "aplicacao-de-arquiteturas-mvc-e-clean-architecture-na-pratica",      
@@ -41,7 +122,40 @@
       "description": "Diego Fernandes e Daniele Evangelista receberam Otávio Lemos e Rodrigo Branas para bater um papo sobre arquiteturas modernas de desenvolvimento.",
       "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/clean.m4a",
       "type": "audio/x-m4a",
-      "duration": 5044
+      "duration": 5044,
+      "count" : 5,
+      "sections" : {
+        "section1" : {
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
+        },
+        "section2" : {
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
+        },
+        "section3" : {
+          "title" :"FalaDev 3",
+          "summary" : "This is Summary For Section 3",
+          "transcript" : "This is Transcript For Section 3",
+          "refrences" : "This is Refrences For Section 3"
+        },
+        "section4" : {
+          "title" :"FalaDev 4",
+          "summary" : "This is Summary For Section 4",
+          "transcript" : "This is Transcript For Section 4",
+          "refrences" : "This is Refrences For Section 4"
+        },
+        "section5" : {
+          "title" :"FalaDev 5",
+          "summary" : "This is Summary For Section 5",
+          "transcript" : "This is Transcript For Section 5",
+          "refrences" : "This is Refrences For Section 5"
+        }
+      }
     },
     {
       "id": "entrevista-jose-valim-criador-do-elixir",      
@@ -52,7 +166,34 @@
       "description": "Nesta edição especial de final de temporada tivemos a oportunidade de ter uma conversa com José Valim, dev brasileiro que criou a linguagem de programação Elixir.",
       "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/jose-valim.m4a",
       "type": "audio/x-m4a",
-      "duration": 4396
+      "duration": 4396,
+      "count" : 4,
+      "sections" : {
+        "section1" : {
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
+        },
+        "section2" : {
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
+        },
+        "section3" : {
+          "title" :"FalaDev 3",
+          "summary" : "This is Summary For Section 3",
+          "transcript" : "This is Transcript For Section 3",
+          "refrences" : "This is Refrences For Section 3"
+        },
+        "section4" : {
+          "title" :"FalaDev 4",
+          "summary" : "This is Summary For Section 4",
+          "transcript" : "This is Transcript For Section 4",
+          "refrences" : "This is Refrences For Section 4"
+        }
+      }
     },
     {
       "id": "o-que-e-ui-ux",      
@@ -63,7 +204,46 @@
       "description": "A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso. Toda semana reunimos três profissionais da tecnologia para discutir sobre tudo que circula na órbita da programação.",
       "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/design.m4a",
       "type": "audio/x-m4a",
-      "duration": 2715
+      "duration": 2715,
+      "count" : 6,
+      "sections" : {
+        "section1" : {
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
+        },
+        "section2" : {
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
+        },
+        "section3" : {
+          "title" :"FalaDev 3",
+          "summary" : "This is Summary For Section 3",
+          "transcript" : "This is Transcript For Section 3",
+          "refrences" : "This is Refrences For Section 3"
+        },
+        "section4" : {
+          "title" :"FalaDev 4",
+          "summary" : "This is Summary For Section 4",
+          "transcript" : "This is Transcript For Section 4",
+          "refrences" : "This is Refrences For Section 4"
+        },
+        "section5" : {
+          "title" :"FalaDev 5",
+          "summary" : "This is Summary For Section 5",
+          "transcript" : "This is Transcript For Section 5",
+          "refrences" : "This is Refrences For Section 5"
+        },
+        "section6" : {
+          "title" :"FalaDev 6",
+          "summary" : "This is Summary For Section 6",
+          "transcript" : "This is Transcript For Section 6",
+          "refrences" : "This is Refrences For Section 6"
+        }
+      }
     },
     {
       "id": "como-virar-lider-desenvolvimento",      
@@ -74,7 +254,22 @@
       "description": "A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso. Toda semana reunimos três profissionais da tecnologia para discutir sobre tudo que circula na órbita da programação.",
       "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/lider-desenvolvimento.m4a",
       "type": "audio/x-m4a",
-      "duration": 2917
+      "duration": 2917,
+      "count" : 2,
+      "sections" : {
+        "section1" : {
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
+        },
+        "section2" : {
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
+        }
+      }
     },
     {
       "id": "comunidades-e-tecnologia",      
@@ -85,7 +280,40 @@
       "description": "A gente passa a maior parte do tempo escrevendo código. Agora chegou o momento de falar sobre isso.",
       "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/comunidade.m4a",
       "type": "audio/x-m4a",
-      "duration": 2677
+      "duration": 2677,
+      "count" : 5,
+      "sections" : {
+        "section1" : {
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
+        },
+        "section2" : {
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
+        },
+        "section3" : {
+          "title" :"FalaDev 3",
+          "summary" : "This is Summary For Section 3",
+          "transcript" : "This is Transcript For Section 3",
+          "refrences" : "This is Refrences For Section 3"
+        },
+        "section4" : {
+          "title" :"FalaDev 4",
+          "summary" : "This is Summary For Section 4",
+          "transcript" : "This is Transcript For Section 4",
+          "refrences" : "This is Refrences For Section 4"
+        },
+        "section5" : {
+          "title" :"FalaDev 5",
+          "summary" : "This is Summary For Section 5",
+          "transcript" : "This is Transcript For Section 5",
+          "refrences" : "This is Refrences For Section 5"
+        }
+      }
     },
     {
       "id": "typescript-vale-a-pena",      
@@ -96,7 +324,34 @@
       "description": "Três programadores conversam sobre TypeScript.Vamos discutir a usabilidade e as previsões da linguagem no cenário da programação.",
       "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/typescript.m4a",
       "type": "audio/x-m4a",
-      "duration": 1772
+      "duration": 1772,
+      "count" : 4,
+      "sections" : {
+        "section1" : {
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
+        },
+        "section2" : {
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
+        },
+        "section3" : {
+          "title" :"FalaDev 3",
+          "summary" : "This is Summary For Section 3",
+          "transcript" : "This is Transcript For Section 3",
+          "refrences" : "This is Refrences For Section 3"
+        },
+        "section4" : {
+          "title" :"FalaDev 4",
+          "summary" : "This is Summary For Section 4",
+          "transcript" : "This is Transcript For Section 4",
+          "refrences" : "This is Refrences For Section 4"
+        }
+      }
     },
     {
       "id": "estrategias-de-autenticacao-jwt-oauth",      
@@ -107,6 +362,33 @@
       "description": "Três programadores conversam sobre estratégia de autenticação.Vamos discutir quais aspectos você deve considerar na hora de fazer a sua escolha.A gente passa a maior parte.",
       "url": "https://storage.googleapis.com/golden-wind/nextlevelweek/05-podcastr/audios/autenticacao.m4a",
       "type": "audio/x-m4a",
-      "duration": 1463
+      "duration": 1463,
+      "count" : 4,
+      "sections" : {
+        "section1" : {
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
+        },
+        "section2" : {
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
+        },
+        "section3" : {
+          "title" :"FalaDev 3",
+          "summary" : "This is Summary For Section 3",
+          "transcript" : "This is Transcript For Section 3",
+          "refrences" : "This is Refrences For Section 3"
+        },
+        "section4" : {
+          "title" :"FalaDev 4",
+          "summary" : "This is Summary For Section 4",
+          "transcript" : "This is Transcript For Section 4",
+          "refrences" : "This is Refrences For Section 4"
+        }
+      }
     }
 ]
