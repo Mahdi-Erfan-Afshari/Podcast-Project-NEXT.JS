@@ -13,44 +13,34 @@
       "sections" : 
       [
         {
-          "section1" :{
-            "title" :"FalaDev 1",
-            "summary" : "This is Summary For Section 1",
-            "transcript" : "This is Transcript For Section 1",
-            "refrences" : "This is Refrences For Section 1"
-          }
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
         },
         {
-          "section2" : {
-            "title" :"FalaDev 2",
-            "summary" : "This is Summary For Section 2",
-            "transcript" : "This is Transcript For Section 2",
-            "refrences" : "This is Refrences For Section 2"
-          }
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
         },
         {
-          "section3" :{
-            "title" :"FalaDev 3",
-            "summary" : "This is Summary For Section 3",
-            "transcript" : "This is Transcript For Section 3",
-            "refrences" : "This is Refrences For Section 3"
-          }
+          "title" :"FalaDev 3",
+          "summary" : "This is Summary For Section 3",
+          "transcript" : "This is Transcript For Section 3",
+          "refrences" : "This is Refrences For Section 3"
         },
         {
-          "section4" : {
-            "title" :"FalaDev 4",
-            "summary" : "This is Summary For Section 4",
-            "transcript" : "This is Transcript For Section 4",
-            "refrences" : "This is Refrences For Section 4"
-          }
+          "title" :"FalaDev 4",
+          "summary" : "This is Summary For Section 4",
+          "transcript" : "This is Transcript For Section 4",
+          "refrences" : "This is Refrences For Section 4"
         },
         {
-          "section5" : {
-            "title" :"FalaDev 5",
-            "summary" : "This is Summary For Section 5",
-            "transcript" : "This is Transcript For Section 5",
-            "refrences" : "This is Refrences For Section 5"
-          }
+          "title" :"FalaDev 5",
+          "summary" : "This is Summary For Section 5",
+          "transcript" : "This is Transcript For Section 5",
+          "refrences" : "This is Refrences For Section 5"
         }
       ]
     },
@@ -68,36 +58,28 @@
       "sections" :
       [
         {
-          "section1" :{
-            "title" :"FalaDev 1",
-            "summary" : "This is Summary For Section 1",
-            "transcript" : "This is Transcript For Section 1",
-            "refrences" : "This is Refrences For Section 1"
-          }
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
         },
         {
-          "section2" : {
-            "title" :"FalaDev 2",
-            "summary" : "This is Summary For Section 2",
-            "transcript" : "This is Transcript For Section 2",
-            "refrences" : "This is Refrences For Section 2"
-          }
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
         },
         {
-          "section3" :{
-            "title" :"FalaDev 3",
-            "summary" : "This is Summary For Section 3",
-            "transcript" : "This is Transcript For Section 3",
-            "refrences" : "This is Refrences For Section 3"
-          }
+          "title" :"FalaDev 3",
+          "summary" : "This is Summary For Section 3",
+          "transcript" : "This is Transcript For Section 3",
+          "refrences" : "This is Refrences For Section 3"
         },
         {
-          "section4" : {
-            "title" :"FalaDev 4",
-            "summary" : "This is Summary For Section 4",
-            "transcript" : "This is Transcript For Section 4",
-            "refrences" : "This is Refrences For Section 4"
-          }
+          "title" :"FalaDev 4",
+          "summary" : "This is Summary For Section 4",
+          "transcript" : "This is Transcript For Section 4",
+          "refrences" : "This is Refrences For Section 4"
         }
       ]
     },
@@ -115,28 +97,22 @@
       "sections" :
       [
         {
-          "section1" :{
-            "title" :"FalaDev 1",
-            "summary" : "This is Summary For Section 1",
-            "transcript" : "This is Transcript For Section 1",
-            "refrences" : "This is Refrences For Section 1"
-          }
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
         },
         {
-          "section2" : {
-            "title" :"FalaDev 2",
-            "summary" : "This is Summary For Section 2",
-            "transcript" : "This is Transcript For Section 2",
-            "refrences" : "This is Refrences For Section 2"
-          }
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
         },
         {
-          "section3" :{
-            "title" :"FalaDev 3",
-            "summary" : "This is Summary For Section 3",
-            "transcript" : "This is Transcript For Section 3",
-            "refrences" : "This is Refrences For Section 3"
-          }
+          "title" :"FalaDev 3",
+          "summary" : "This is Summary For Section 3",
+          "transcript" : "This is Transcript For Section 3",
+          "refrences" : "This is Refrences For Section 3"
         }
       ]
     },
@@ -154,44 +130,34 @@
       "sections" :
       [
         {
-          "section1" :{
-            "title" :"FalaDev 1",
-            "summary" : "This is Summary For Section 1",
-            "transcript" : "This is Transcript For Section 1",
-            "refrences" : "This is Refrences For Section 1"
-          }
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
         },
         {
-          "section2" : {
-            "title" :"FalaDev 2",
-            "summary" : "This is Summary For Section 2",
-            "transcript" : "This is Transcript For Section 2",
-            "refrences" : "This is Refrences For Section 2"
-          }
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
         },
         {
-          "section3" :{
-            "title" :"FalaDev 3",
-            "summary" : "This is Summary For Section 3",
-            "transcript" : "This is Transcript For Section 3",
-            "refrences" : "This is Refrences For Section 3"
-          }
+          "title" :"FalaDev 3",
+          "summary" : "This is Summary For Section 3",
+          "transcript" : "This is Transcript For Section 3",
+          "refrences" : "This is Refrences For Section 3"
         },
         {
-          "section4" : {
-            "title" :"FalaDev 4",
-            "summary" : "This is Summary For Section 4",
-            "transcript" : "This is Transcript For Section 4",
-            "refrences" : "This is Refrences For Section 4"
-          }
+          "title" :"FalaDev 4",
+          "summary" : "This is Summary For Section 4",
+          "transcript" : "This is Transcript For Section 4",
+          "refrences" : "This is Refrences For Section 4"
         },
         {
-          "section5" : {
-            "title" :"FalaDev 5",
-            "summary" : "This is Summary For Section 5",
-            "transcript" : "This is Transcript For Section 5",
-            "refrences" : "This is Refrences For Section 5"
-          }
+          "title" :"FalaDev 5",
+          "summary" : "This is Summary For Section 5",
+          "transcript" : "This is Transcript For Section 5",
+          "refrences" : "This is Refrences For Section 5"
         }
       ]
     },
@@ -209,36 +175,28 @@
       "sections" :
       [
         {
-          "section1" :{
-            "title" :"FalaDev 1",
-            "summary" : "This is Summary For Section 1",
-            "transcript" : "This is Transcript For Section 1",
-            "refrences" : "This is Refrences For Section 1"
-          }
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
         },
         {
-          "section2" : {
-            "title" :"FalaDev 2",
-            "summary" : "This is Summary For Section 2",
-            "transcript" : "This is Transcript For Section 2",
-            "refrences" : "This is Refrences For Section 2"
-          }
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
         },
         {
-          "section3" :{
-            "title" :"FalaDev 3",
-            "summary" : "This is Summary For Section 3",
-            "transcript" : "This is Transcript For Section 3",
-            "refrences" : "This is Refrences For Section 3"
-          }
+          "title" :"FalaDev 3",
+          "summary" : "This is Summary For Section 3",
+          "transcript" : "This is Transcript For Section 3",
+          "refrences" : "This is Refrences For Section 3"
         },
         {
-          "section4" : {
-            "title" :"FalaDev 4",
-            "summary" : "This is Summary For Section 4",
-            "transcript" : "This is Transcript For Section 4",
-            "refrences" : "This is Refrences For Section 4"
-          }
+          "title" :"FalaDev 4",
+          "summary" : "This is Summary For Section 4",
+          "transcript" : "This is Transcript For Section 4",
+          "refrences" : "This is Refrences For Section 4"
         }
       ]
     },
@@ -256,52 +214,40 @@
       "sections" :
       [
         {
-          "section1" :{
-            "title" :"FalaDev 1",
-            "summary" : "This is Summary For Section 1",
-            "transcript" : "This is Transcript For Section 1",
-            "refrences" : "This is Refrences For Section 1"
-          }
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
         },
         {
-          "section2" : {
-            "title" :"FalaDev 2",
-            "summary" : "This is Summary For Section 2",
-            "transcript" : "This is Transcript For Section 2",
-            "refrences" : "This is Refrences For Section 2"
-          }
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
         },
         {
-          "section3" :{
-            "title" :"FalaDev 3",
-            "summary" : "This is Summary For Section 3",
-            "transcript" : "This is Transcript For Section 3",
-            "refrences" : "This is Refrences For Section 3"
-          }
+          "title" :"FalaDev 3",
+          "summary" : "This is Summary For Section 3",
+          "transcript" : "This is Transcript For Section 3",
+          "refrences" : "This is Refrences For Section 3"
         },
         {
-          "section4" : {
-            "title" :"FalaDev 4",
-            "summary" : "This is Summary For Section 4",
-            "transcript" : "This is Transcript For Section 4",
-            "refrences" : "This is Refrences For Section 4"
-          }
+          "title" :"FalaDev 4",
+          "summary" : "This is Summary For Section 4",
+          "transcript" : "This is Transcript For Section 4",
+          "refrences" : "This is Refrences For Section 4"
         },
         {
-          "section5" : {
-            "title" :"FalaDev 5",
-            "summary" : "This is Summary For Section 5",
-            "transcript" : "This is Transcript For Section 5",
-            "refrences" : "This is Refrences For Section 5"
-          }
+          "title" :"FalaDev 5",
+          "summary" : "This is Summary For Section 5",
+          "transcript" : "This is Transcript For Section 5",
+          "refrences" : "This is Refrences For Section 5"
         },
         {
-          "section6" : {
-            "title" :"FalaDev 6",
-            "summary" : "This is Summary For Section 6",
-            "transcript" : "This is Transcript For Section 6",
-            "refrences" : "This is Refrences For Section 6"
-          }
+          "title" :"FalaDev 6",
+          "summary" : "This is Summary For Section 6",
+          "transcript" : "This is Transcript For Section 6",
+          "refrences" : "This is Refrences For Section 6"
         }
       ]
     },
@@ -319,20 +265,16 @@
       "sections" :
       [
         {
-          "section1" :{
-            "title" :"FalaDev 1",
-            "summary" : "This is Summary For Section 1",
-            "transcript" : "This is Transcript For Section 1",
-            "refrences" : "This is Refrences For Section 1"
-          }
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
         },
         {
-          "section2" : {
-            "title" :"FalaDev 2",
-            "summary" : "This is Summary For Section 2",
-            "transcript" : "This is Transcript For Section 2",
-            "refrences" : "This is Refrences For Section 2"
-          }
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
         }
       ]
     },
@@ -350,44 +292,34 @@
       "sections" :
       [
         {
-          "section1" :{
-            "title" :"FalaDev 1",
-            "summary" : "This is Summary For Section 1",
-            "transcript" : "This is Transcript For Section 1",
-            "refrences" : "This is Refrences For Section 1"
-          }
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
         },
         {
-          "section2" : {
-            "title" :"FalaDev 2",
-            "summary" : "This is Summary For Section 2",
-            "transcript" : "This is Transcript For Section 2",
-            "refrences" : "This is Refrences For Section 2"
-          }
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
         },
         {
-          "section3" :{
-            "title" :"FalaDev 3",
-            "summary" : "This is Summary For Section 3",
-            "transcript" : "This is Transcript For Section 3",
-            "refrences" : "This is Refrences For Section 3"
-          }
+          "title" :"FalaDev 3",
+          "summary" : "This is Summary For Section 3",
+          "transcript" : "This is Transcript For Section 3",
+          "refrences" : "This is Refrences For Section 3"
         },
         {
-          "section4" : {
-            "title" :"FalaDev 4",
-            "summary" : "This is Summary For Section 4",
-            "transcript" : "This is Transcript For Section 4",
-            "refrences" : "This is Refrences For Section 4"
-          }
+          "title" :"FalaDev 4",
+          "summary" : "This is Summary For Section 4",
+          "transcript" : "This is Transcript For Section 4",
+          "refrences" : "This is Refrences For Section 4"
         },
         {
-          "section5" : {
-            "title" :"FalaDev 5",
-            "summary" : "This is Summary For Section 5",
-            "transcript" : "This is Transcript For Section 5",
-            "refrences" : "This is Refrences For Section 5"
-          }
+          "title" :"FalaDev 5",
+          "summary" : "This is Summary For Section 5",
+          "transcript" : "This is Transcript For Section 5",
+          "refrences" : "This is Refrences For Section 5"
         }
       ]
     },
@@ -405,36 +337,28 @@
       "sections" :
       [
         {
-          "section1" :{
-            "title" :"FalaDev 1",
-            "summary" : "This is Summary For Section 1",
-            "transcript" : "This is Transcript For Section 1",
-            "refrences" : "This is Refrences For Section 1"
-          }
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
         },
         {
-          "section2" : {
-            "title" :"FalaDev 2",
-            "summary" : "This is Summary For Section 2",
-            "transcript" : "This is Transcript For Section 2",
-            "refrences" : "This is Refrences For Section 2"
-          }
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
         },
         {
-          "section3" :{
-            "title" :"FalaDev 3",
-            "summary" : "This is Summary For Section 3",
-            "transcript" : "This is Transcript For Section 3",
-            "refrences" : "This is Refrences For Section 3"
-          }
+          "title" :"FalaDev 3",
+          "summary" : "This is Summary For Section 3",
+          "transcript" : "This is Transcript For Section 3",
+          "refrences" : "This is Refrences For Section 3"
         },
         {
-          "section4" : {
-            "title" :"FalaDev 4",
-            "summary" : "This is Summary For Section 4",
-            "transcript" : "This is Transcript For Section 4",
-            "refrences" : "This is Refrences For Section 4"
-          }
+          "title" :"FalaDev 4",
+          "summary" : "This is Summary For Section 4",
+          "transcript" : "This is Transcript For Section 4",
+          "refrences" : "This is Refrences For Section 4"
         }
       ]
     },
@@ -452,36 +376,28 @@
       "sections" :
       [
         {
-          "section1" :{
-            "title" :"FalaDev 1",
-            "summary" : "This is Summary For Section 1",
-            "transcript" : "This is Transcript For Section 1",
-            "refrences" : "This is Refrences For Section 1"
-          }
+          "title" :"FalaDev 1",
+          "summary" : "This is Summary For Section 1",
+          "transcript" : "This is Transcript For Section 1",
+          "refrences" : "This is Refrences For Section 1"
         },
         {
-          "section2" : {
-            "title" :"FalaDev 2",
-            "summary" : "This is Summary For Section 2",
-            "transcript" : "This is Transcript For Section 2",
-            "refrences" : "This is Refrences For Section 2"
-          }
+          "title" :"FalaDev 2",
+          "summary" : "This is Summary For Section 2",
+          "transcript" : "This is Transcript For Section 2",
+          "refrences" : "This is Refrences For Section 2"
         },
         {
-          "section3" :{
-            "title" :"FalaDev 3",
-            "summary" : "This is Summary For Section 3",
-            "transcript" : "This is Transcript For Section 3",
-            "refrences" : "This is Refrences For Section 3"
-          }
+          "title" :"FalaDev 3",
+          "summary" : "This is Summary For Section 3",
+          "transcript" : "This is Transcript For Section 3",
+          "refrences" : "This is Refrences For Section 3"
         },
         {
-          "section4" : {
-            "title" :"FalaDev 4",
-            "summary" : "This is Summary For Section 4",
-            "transcript" : "This is Transcript For Section 4",
-            "refrences" : "This is Refrences For Section 4"
-          }
+          "title" :"FalaDev 4",
+          "summary" : "This is Summary For Section 4",
+          "transcript" : "This is Transcript For Section 4",
+          "refrences" : "This is Refrences For Section 4"
         }
       ]
     }

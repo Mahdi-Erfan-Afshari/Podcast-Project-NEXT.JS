@@ -17,9 +17,10 @@ async function fetchPodcast() {
 const Sections = async ({ id , data , podcasts }) => {
   const fetchPodcasts = await fetchPodcast();
   const podcast = await fetchPodcasts.filter((podcast) => podcast.id == id);
-  const sections = [podcast[0].sections]
+  const sections = podcast[0].sections
   // const fetchSections = fetchPodcasts.id
-  console.log(sections);
+  // console.log(sections.section1);
+
   // podcast.map((podcast) => {
   //   console.log(podcast.id);
   // })
@@ -73,8 +74,8 @@ const Sections = async ({ id , data , podcasts }) => {
         <Link href='#'><button id="section-btn" className="font-semibold rounded-md md:py-4 py-3 px-3 w-44 mx-1 duration-150 block" onClick={(e) =>{ changeLable(e) }}>{duration == NaN ? 'Section 5' : duration ? `section ${duration * 4} Until ${duration * 5}` : 'section 5'}</button></Link> */}
 
 
-        {sections.map(() => (
-          <Link href='#'><button id="section-btn" className="font-semibold rounded-md md:py-4 py-3 px-3 w-44 mx-1 duration-150 block">Section</button></Link>
+        {sections.map((section) => (
+          <Link className="mx-1" href='#'><button id="section-btn" className="btn-active font-semibold rounded-md md:py-4 py-3 px-3 w-44 duration-150 block">{section.title}</button></Link>
         ))}
         
 
